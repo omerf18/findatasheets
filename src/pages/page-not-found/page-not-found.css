@@ -1,0 +1,24 @@
+.not-found-main-container {
+  height: 100vh;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.not-found-main-container > * {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.not-found-oops {
+  color: #1E90FF;
+  font-size: 5rem;
+}
+
+.not-found-404 {
+  font-size: 3rem;
+}
+
+.not-found-msg {
+  font-size: 1.2rem;
+}
+/*# sourceMappingURL=page-not-found.css.map */

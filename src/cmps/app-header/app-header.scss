@@ -1,0 +1,13 @@
+@import '../../style/vars.scss';
+
+.app-header {
+    position: absolute;
+    padding: 10px;
+    top: 0;
+    width: 100vw;
+    box-shadow: 0px 4px 6px rgba(30, 144, 255, 0.5);
+    &-logo {
+        font-weight: 600;
+        color: $theme;
+    }
+}

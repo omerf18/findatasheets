@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,WAAW,CAAC;EACR,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,IAAI;EACb,GAAG,EAAE,CAAC;EACN,KAAK,EAAE,KAAK;EACZ,UAAU,EAAE,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,uBAAuB;CAKlD;;AAJI,AAAD,gBAAM,CAAC;EACH,WAAW,EAAE,GAAG;EAChB,KAAK,ECFL,OAAO;CDGV",
+    "sources": [
+        "app-header.scss",
+        "../../style/vars.scss"
+    ],
+    "names": [],
+    "file": "app-header.css"
+}

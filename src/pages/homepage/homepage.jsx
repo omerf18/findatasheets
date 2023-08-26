@@ -32,16 +32,17 @@ const Homepage = () => {
             <div className='main-container flex column center-center'>
                 <div className='app-title'>FINDATASHEETS</div>
                 <div className='app-input-container'>
-                    <input
-                        className='app-input'
-                        placeholder='Search..'
-                        value={searchInput}
-                        onChange={(e) => setSearchInput(e.target.value)}
-                        onKeyDown={handleKeyPress}
-                    />
-                    <div div className='app-input-btn' onClick={handleSearch}>
-                        <BsSearch />
-                    </div>
+                    <form onSubmit={handleSearch}>
+                        <input
+                            className='app-input'
+                            placeholder='Search..'
+                            value={searchInput}
+                            onChange={(e) => setSearchInput(e.target.value)}
+                        />
+                        <button type="submit" className='app-input-btn'>
+                            <BsSearch />
+                        </button>
+                    </form>
                 </div>
                 <div className='item-selected-content'>
                     {infoItems[selectedItem].content}
